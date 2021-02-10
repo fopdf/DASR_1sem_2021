@@ -28,5 +28,10 @@ int main()
 		e[i] = i;
 		cout << e[i] << ' ';
 	}
+	//add change in master
+	for (int i = 0; i < 15; i++)
+	{
+		cout << e[i] * b * b << ' ';
+	}
 }
 
