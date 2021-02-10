@@ -28,10 +28,21 @@ int main()
 		e[i] = i;
 		cout << e[i] << ' ';
 	}
+//<<<<<<< HEAD
+	//add changes in branch
+	for (int i = 0; i < 15; i++)
+	{
+		cout << e[i] * b << ' ';
+	}
+//=======
 	//add change in master
 	for (int i = 0; i < 15; i++)
 	{
 		cout << e[i] * b * b << ' ';
+//>>>>>>> master
 	}
+	//add some more commit
+	double f = 2.71;
+	cout << f * b << ' ';
 }
 
