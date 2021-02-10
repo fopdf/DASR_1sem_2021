@@ -21,5 +21,12 @@ int main()
 	int d = 0;
 	d = multi(a, b);
 	cout << d << ' ';
+	//add changes on github.com
+	int a = [];
+	for(i, i<15, i++)
+	{
+		a[i] = i;
+		cout << a[i] << ' ';
+	}
 }
 
