@@ -12,9 +12,14 @@ int main()
 {
 	int a = 1;
 	int b = 2;
-	cout << a + b;
+	cout << a + b << ' ';
+
 	//add smth
 	int c = 3;
-	cout << a + b + c
+	cout << a + b + c << ' ';
+	//Index editor 
+	int d = 0;
+	d = multi(a, b);
+	cout << d << ' ';
 }
 
