@@ -22,11 +22,11 @@ int main()
 	d = multi(a, b);
 	cout << d << ' ';
 	//add changes on github.com
-	int a = [];
-	for(i, i<15, i++)
+	int e[15];
+	for(int i = 0; i < 15; i++)
 	{
-		a[i] = i;
-		cout << a[i] << ' ';
+		e[i] = i;
+		cout << e[i] << ' ';
 	}
 }
 
